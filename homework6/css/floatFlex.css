@@ -1,0 +1,188 @@
+/*reset*/
+        html,body,div,span,applet,object,iframe,
+        h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+        a,abbr,acronym,address,big,cite,code,
+        del,dfn,em,img,ins,kbd,q,s,samp,
+        small,strike,strong,sub,sup,tt,var,
+        b,u,i,center,
+        dl,dt,dd,ol,ul,li,
+        fieldset,form,label,legend,
+        table,caption,tbody,tfoot,thead,tr,th,td,
+        article,aside,canvas,details,embed, 
+        figure,figcaption,footer,header,hgroup, 
+        menu,nav,output,ruby,section,summary,
+        time,mark,audio,video{
+            margin:0;
+            padding:0;
+            border:0;
+            font-size:100%;
+            font:inherit;
+            vertical-align:baseline;
+        }
+        article,aside,details,figcaption,figure, 
+        footer,header,hgroup,menu,nav,section{
+            display:block;
+        }
+        body{
+            line-height:1;
+        }
+        ol,ul{
+            list-style:none;
+        }
+        blockquote,q{
+            quotes:none;
+        }
+        blockquote:before,blockquote:after,
+        q:before,q:after{
+            content:'';
+            content:none;
+        }
+        table{
+            border-collapse:collapse;
+            border-spacing:0;
+        }
+        .clearfix:after{
+            content:"";
+            clear:both;
+            display:block;
+        }
+/*main*/
+        body{
+            background:#201e20;
+            }
+        html,body{
+            scroll-behavior:smooth;
+        }
+        .wrapper{
+            width:1200px;
+            margin:100px auto;
+            text-align:center;
+        }
+        .wrapper div{
+            outline:2px solid #201e20;
+        }
+        h1{
+            color:#e0a96d; 
+            display: block;
+            font-size:50px;
+            font-weight: 800;
+            margin:100px 0;
+        }
+        .navigator{
+            padding: 1px;
+        }
+        p{
+            display:block;
+            margin:20px auto;
+        }
+        a{
+            color:#e0a96d;
+            font-size:40px;
+            text-decoration:none;
+        }
+/*size*/
+        .width400{
+            width:400px;
+        }
+        .width800{
+            width:800px;
+        }
+        .flex400{
+            flex:0 0 400px;
+        }
+        .flex800{
+            flex:0 0 800px;
+        }
+        .height100{
+            min-height:100px;
+        }
+        .height200{
+            min-height:200px;
+        }
+        .height400{
+            min-height:400px;
+        }
+/*float*/
+        .inFloat{
+            float:left;
+        }
+        .clr{
+            clear:both;
+        }
+        .floatTop>div{
+            background:#e1dc6b;
+        }
+        .floatMiddleLeft{
+            background:#5e6464;
+        }
+        .floatMiddleRight>div,.floatMiddleRight>div+div+div{
+            background:#4e7851;
+        }
+        .floatMiddleRight>div+div{
+            background:#a96562;
+        }
+        .floatBottomLeft{
+            background: #bcb8ce;
+        }
+        .floatBottomRight>div{
+            background:#cb401b;
+        }
+        .floatBottomRight>div+div>div{
+            background:#efd091;
+        }
+        .floatBottomRight>div+div>div>div{
+            background:#a5c6b1;
+        }
+/*floatClearfix*/        
+        .floatClearFixTop>div{
+            background:#ab726f;
+        }
+        .floatClearFixMiddleLeft{
+            background:#e0aa61;
+        }
+        .floatClearFixMiddleRight>div,.floatClearFixMiddleRight>div+div+div{
+            background:#600318;
+        }
+        .floatClearFixMiddleRight>div+div{
+            background:#c85e6c;
+        }
+        .floatClearFixBottomLeft{
+            background: #8bc2a1;
+        }
+        .floatClearFixBottomRight>div{
+            background:#be865c;
+        }
+        .floatClearFixBottomRight>div+div>div{
+            background:#6e819e;
+        }
+        .floatClearFixBottomRight>div+div>div>div{
+            background:#ffdb6e;
+        }
+/*flexContainer*/
+        .flexContainer{
+            display:flex;
+        }
+        .flexTop>div{
+            background:#9b6549;
+        }
+        .flexMiddleLeft{
+            background:#aec55d;
+        }
+        .flexMiddleRight>div,.flexMiddleRight>div+div+div{
+            background:#faafa0;
+        }
+        .flexMiddleRight>div+div{
+            background:#d74d63;
+        }
+        .flexBottomLeft{
+            background: #579573;
+        }
+        .flexBottomRight>div{
+            background:#67705c;
+        }
+        .flexBottomRight>div+div>div{
+            background:#715f65;
+        }
+        .flexBottomRight>div+div>div>div{
+            background:#7cbdc9;
+        }

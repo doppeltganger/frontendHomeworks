@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>floatClearfix</title>
+        <link rel="stylesheet" href="css/floatFlex.css">
+	</head>
+	<body>
+		<div class="wrapper">
+            <h1>My floatClearfix</h1>
+            <div class="floatClearFixTop clearfix">
+                <div class="width400 height400 inFloat"></div>
+                <div class="width400 height400 inFloat"></div>
+                <div class="width400 height400 inFloat"></div>
+            </div>
+            <div class="clearfix">
+                <div class="floatClearFixMiddleLeft width800 inFloat">
+                    <div class="height200"></div>
+                    <div class="height200"></div>
+                </div>
+                <div class="floatClearFixMiddleRight width400 inFloat">
+                    <div class="height100"></div>
+                    <div class="height200"></div>
+                    <div class="height100"></div>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="floatClearFixBottomLeft width400 height400 inFloat"></div>
+                <div class="floatClearFixBottomRight width800 inFloat">
+                    <div class="height200"></div>
+                    <div class="clearfix">
+                        <div class="width400 height200 inFloat"></div>
+                        <div class="width400 inFloat">
+                            <div class="height100"></div>
+                            <div class="height100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigator">
+                <p><a href="float.html">To get into float</a></p>
+                <p><a href="flex.html">To get into flex</a></p>
+            </div>
+        </div> 
+	</body>
+</html>

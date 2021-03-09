@@ -1,0 +1,150 @@
+/*reset*/
+		html,body,div,span,applet,object,iframe,
+		h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+		a,abbr,acronym,address,big,cite,code,
+		del,dfn,em,img,ins,kbd,q,s,samp,
+		small,strike,strong,sub,sup,tt,var,
+		b,u,i,center,
+		dl,dt,dd,ol,ul,li,
+		fieldset,form,label,legend,
+		table,caption,tbody,tfoot,thead,tr,th,td,
+		article,aside,canvas,details,embed, 
+		figure,figcaption,footer,header,hgroup, 
+		menu,nav,output,ruby,section,summary,
+		time,mark,audio,video{
+			margin:0;
+			padding:0;
+			border:0;
+			font-size:100%;
+			font:inherit;
+			vertical-align:baseline;
+		}
+		article,aside,details,figcaption,figure, 
+		footer,header,hgroup,menu,nav,section{
+			display:block;
+		}
+		body{
+			line-height:1;
+		}
+		ol,ul{
+			list-style:none;
+		}
+		blockquote,q{
+			quotes:none;
+		}
+		blockquote:before,blockquote:after,
+		q:before,q:after{
+			content:'';
+			content:none;
+		}
+		table{
+			border-collapse:collapse;
+			border-spacing:0;
+		}
+/*main*/
+		body{
+			background:#201e20;
+			}
+		html,body{
+			scroll-behavior:smooth;
+		}
+		.wrapper{
+			width:1200px;
+			margin:100px auto;
+			text-align:center;
+		    font-size:0;
+		}
+		.wrapper div{
+			outline:2px solid #201e20;
+		}
+		h1{
+		    color:#e0a96d; 
+			display: block;
+		    font-size:50px;
+		    font-weight: 800;
+		    margin:100px 0;
+		}
+		.navigator{
+			padding:1px;
+		}
+		p{
+			display:block;
+		    margin:100px auto;
+		}
+		a{
+			color:#e0a96d;
+		    font-size:40px;
+		    text-decoration:none;
+		}
+/*size*/
+		.width400{
+			width:400px;
+		}
+		.width800{
+			width:800px;
+		}
+		.height100{
+			min-height:100px;
+		}
+		.height200{
+			min-height:200px;
+		}
+		.height400{
+			height:400px;
+		}
+/*tableCell*/
+		.inTableCell{
+			display:table-cell;
+		}
+		.tableCellTop>div{
+			background:#517f83;
+		}
+		.tableCellMiddleLeft{
+			background:#9e8d77;
+		}
+		.tableCellMiddleRight>div,.tableCellMiddleRight>div+div+div{
+			background:#583d34;
+		}
+		.tableCellMiddleRight>div+div{
+			background:#595d3d;
+		}
+		.tableCellBottomLeft{
+			background: #6b7478;
+		}
+		.tableCellBottomRight>div{
+			background:#eaaa3c;
+		}
+		.tableCellBottomRight>div+div>div{
+			background:#74a3b7;
+		}
+		.tableCellBottomRight>div+div>div>div{
+			background:#f4ea79;
+		}
+/*inlineBlock*/
+		.inInlineBlock{
+			display:inline-block;
+		}
+		.inlineBlockTop>div{
+			background:#c67d76;
+		}
+		.inlineBlockMiddleLeft{
+			background:#793d3d;
+		}
+		.inlineBlockMiddleRight>div,.inlineBlockMiddleRight>div+div+div{
+			background:#5FA59A;
+		}
+		.inlineBlockMiddleRight>div+div{
+			background:#c8aba7;
+		}
+		.inlineBlockBottomLeft{
+			background: #d29c3c;
+		}
+		.inlineBlockBottomRight div{
+			background:#bd8aab;
+		}
+		.inlineBlockBottomRight>div+div>div{
+			background:#bf0008;
+		}
+		.inlineBlockBottomRight>div+div>div>div{
+			background:#a1c855;
+		}

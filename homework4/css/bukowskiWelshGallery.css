@@ -1,0 +1,122 @@
+/*reset*/
+		html,body,div,span,applet,object,iframe,
+		h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+		a,abbr,acronym,address,big,cite,code,
+		del,dfn,em,img,ins,kbd,q,s,samp,
+		small,strike,strong,sub,sup,tt,var,
+		b,u,i,center,
+		dl,dt,dd,ol,ul,li,
+		fieldset,form,label,legend,
+		table,caption,tbody,tfoot,thead,tr,th,td,
+		article,aside,canvas,details,embed, 
+		figure,figcaption,footer,header,hgroup, 
+		menu,nav,output,ruby,section,summary,
+		time,mark,audio,video{
+			margin:0;
+			padding:0;
+			border:0;
+			font-size:100%;
+			font:inherit;
+			vertical-align:baseline;
+		}
+		article,aside,details,figcaption,figure, 
+		footer,header,hgroup,menu,nav,section{
+			display:block;
+		}
+		body{
+			line-height:1;
+		}
+		ol,ul{
+			list-style:none;
+		}
+		blockquote,q{
+			quotes:none;
+		}
+		blockquote:before,blockquote:after,
+		q:before,q:after{
+			content:'';
+			content:none;
+		}
+		table{
+			border-collapse:collapse;
+			border-spacing:0;
+		}
+/*main*/
+		body{
+			background:#201e20;
+			}
+		html,body{
+			scroll-behavior:smooth;
+		}
+		.wrapper{
+			color:#ddc3a5;
+			width:1200px; 
+			font-size:18px;
+			text-align:justify;
+			line-height:25px;
+			font-weight:400;
+			overflow:auto;
+			margin:0 auto;
+		}
+		h1,h2,h3{
+			color:#e0a96d; 
+			text-align:center;
+			display: block;
+			font-weight: 800;
+		}
+		h1{
+			font-size:35px;
+			margin:30px auto;
+		}
+		h2{
+			font-size:27px;
+			margin:25px auto;
+		}
+		h3{
+			font-size:20px;
+			margin:20px auto;
+		}
+		p{
+			display:block;
+			margin:20px auto;
+		}
+		ol{
+			display:block;
+			list-style-type:decimal;
+			margin:20px auto;
+			padding:0 0 0 40px;
+		}
+		li{
+			display:list-item;
+			text-align:justify;
+		}
+		q{
+			color:#c66b3d;
+			font-style:oblique;
+			display:inline;
+			quotes:'«' '»';
+		}
+		q:before{
+			content:open-quote;
+		}
+		q:after{
+			content:close-quote;
+		}
+		a{
+			color:#e0a96d;
+		}
+/*navigators*/
+		.navigators{
+			text-align:center;
+		}
+		.navigators a{
+			color:#c66b3d;
+			text-decoration:none;
+		}
+/*imageBlock*/
+		.imageBlock{
+			text-align:center;
+		}
+		img{
+			width:300px;
+		}
